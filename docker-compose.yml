@@ -1,17 +1,8 @@
-version: "3"
-services:
-  #nama service / container
-  react-web:
-  #cara build Dockerfile dengan nama tidak standard, contoh Dockerfile.dev
-    build:
-      #definisikan directory yg mau di snapshot
-      context: .
-      #sebutkan nama Dockerfile yang tidak standard
-      dockerfile: Dockerfile.dev
-    ports:
-      - "1234:3000"
-    volumes:
-    #jangan sync /app/node_modules yang ada pd container ke local directory
-      - /app/node_modules
-    # sync semua isi curent local directory ke directory /app pada container
-      - .:/app
+    version: '3'
+    services:
+      web:
+        build:
+          context: .
+          dockerfile: Dockerfile
+        ports:
+          - '80:80'
