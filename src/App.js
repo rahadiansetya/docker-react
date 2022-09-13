@@ -11,7 +11,9 @@ class App extends Component {
           <h2>Welcome to Hackacgtive Vol 2</h2>
         </div>
         <p className="App-intro">
+
           This is the page you're edited before lunch
+
         </p>
       </div>
     );
