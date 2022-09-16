@@ -13,6 +13,9 @@ class App extends Component {
         <p className="App-intro">
           This is the page you're edited before lunch
         </p>
+        <p>
+        add new line from feature branch
+        </p>
       </div>
     );
   }
