@@ -18,6 +18,9 @@ class App extends Component {
         <p>
         add new line from feature branch
         </p>
+        <p>
+        add new line from feature branch
+        </p>
       </div>
     );
   }
