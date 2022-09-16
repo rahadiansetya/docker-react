@@ -8,10 +8,15 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to Hack</h2>
+          <h2>Welcome to Hackacgtive Vol 2</h2>
         </div>
         <p className="App-intro">
-          sik tak ganti maneh ya bro
+
+          This is the page you're edited before lunch
+
+        </p>
+        <p>
+        add new line from feature branch
         </p>
       </div>
     );
